@@ -16,7 +16,25 @@ Select **Luna XP** in the theme menu. Use the background menu to choose another 
 
 This theme supplies colors, a blue bar, and the standard Yaru-blue icon selection. Omarchy generates application configurations from its templates.
 
+## Wallpaper selector
+
+Open the wallpaper selector with `omarchy theme bg-switcher`.
+
+![Luna XP wallpaper selector with seven wallpapers](assets/wallpaper-selector.webp)
+
+The selector uses an overlapping carousel. The gallery below shows each complete wallpaper.
+
 ## Wallpapers
+
+| Wallpaper | Preview |
+| --- | --- |
+| Bliss | [![Bliss](assets/wallpapers/01-bliss.webp)](backgrounds/01-bliss.webp) |
+| Home | [![Home](assets/wallpapers/02-home.webp)](backgrounds/02-home.webp) |
+| Red Moon Desert | [![Red Moon Desert](assets/wallpapers/03-red-moon-desert.webp)](backgrounds/03-red-moon-desert.webp) |
+| Stonehenge | [![Stonehenge](assets/wallpapers/04-stonehenge.webp)](backgrounds/04-stonehenge.webp) |
+| Follow | [![Follow](assets/wallpapers/05-follow.webp)](backgrounds/05-follow.webp) |
+| Autumn | [![Autumn](assets/wallpapers/06-autumn.webp)](backgrounds/06-autumn.webp) |
+| Azul | [![Azul](assets/wallpapers/07-azul.webp)](backgrounds/07-azul.webp) |
 
 All seven exports are 3840 × 2160 WebP images. Export resolution does not imply native 4K detail.
 
