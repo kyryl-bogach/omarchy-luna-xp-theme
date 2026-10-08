@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "01-bliss",
+    "name": "Bliss",
+    "source_file": "bliss-source.jpg",
+    "url": "https://archive.org/download/theoriginalfilesofsomewindowswallpapers/bliss%20600dpi.jpg",
+    "sha256": "df6c8738e864e2b9e029d32e0a92c3b38c2c39f18223a05843da7edb4c3fa276",
+    "source_dimensions": "4510x3627",
+    "quality": "archived high-resolution source",
+    "credit": "Charles O\u2019Rear",
+    "gravity": "center"
+  },
+  {
+    "slug": "02-home",
+    "name": "Home",
+    "source_file": "home-upscale.png",
+    "url": "https://i.redd.it/rgbkumlvxzo31.png",
+    "sha256": "2939212afcfb1ce598c0b465249748c39e99e268cf161392f322ab8d56ad1eb0",
+    "source_dimensions": "3840x2160",
+    "quality": "community AI upscale",
+    "credit": "Greg Nikas (attribution from Windows Wallpapers Wiki)",
+    "gravity": "center"
+  },
+  {
+    "slug": "03-red-moon-desert",
+    "name": "Red Moon Desert",
+    "source_file": "Red moon desert.jpg",
+    "url": "https://archive.org/download/snow-trees-3840x-2160/Windows%20XP%20HD%20Wallpaper%20Pack%204/Windows%20XP/Red%20moon%20desert.jpg",
+    "sha256": "e2d965945d91965a1dd2c75afb811ce723258b5ce43aec2135671f2d0a5c147e",
+    "source_dimensions": "1920x1200",
+    "quality": "1920x1200 source; enlarged for 4K",
+    "credit": "Charles O\u2019Rear",
+    "gravity": "center"
+  },
+  {
+    "slug": "04-stonehenge",
+    "name": "Stonehenge",
+    "source_file": "Stonehenge (Getty Images Rescan).jpg",
+    "url": "https://archive.org/download/snow-trees-3840x-2160/Windows%20XP%20HD%20Wallpaper%20Pack%204/Windows%20XP/Stonehenge%20%28Getty%20Images%20Rescan%29.jpg",
+    "sha256": "68e51dc148139afda4d80397a7d97a01b86f8fcb3957ec4ead441f9f843c5abd",
+    "source_dimensions": "1920x1200",
+    "quality": "1920x1200 rescan derivative; enlarged for 4K",
+    "credit": "Roger Ressmeyer",
+    "gravity": "center"
+  },
+  {
+    "slug": "05-follow",
+    "name": "Follow",
+    "source_file": "Follow.jpg",
+    "url": "https://archive.org/download/snow-trees-3840x-2160/Windows%20XP%20HD%20Wallpaper%20Pack%204/Windows%20XP/Follow.jpg",
+    "sha256": "d3f65e5e0aba150fd72fce7571191debb87862f7fb896bfc5c585cddac60cff7",
+    "source_dimensions": "1920x1200",
+    "quality": "1920x1200 source; enlarged for 4K",
+    "credit": "Warren Morgan",
+    "gravity": "center"
+  },
+  {
+    "slug": "06-autumn",
+    "name": "Autumn",
+    "source_file": "autumn-source.jpg",
+    "url": "https://archive.org/download/theoriginalfilesofsomewindowswallpapers/G719102013.jpg",
+    "sha256": "3e4be6eaf5f1cb1b52d09db6084df5d8a57da3220144909c0795de2175ff3eac",
+    "source_dimensions": "4200x2800",
+    "quality": "archived high-resolution source",
+    "credit": "Peter K. Burian",
+    "gravity": "center"
+  },
+  {
+    "slug": "07-azul",
+    "name": "Azul",
+    "source_file": "azul-source.jpg",
+    "url": "https://i.redd.it/iq6c1c3yqc861.jpg",
+    "sha256": "4d807987f5c68d0b9081f550dfb071a187345a59f00bf6412aa7bddcf3f6d054",
+    "source_dimensions": "4341x2841",
+    "quality": "archived high-resolution source",
+    "credit": "Bill Ross",
+    "gravity": "center"
+  }
+]
