@@ -16,6 +16,33 @@ Select **Luna XP** in the theme menu. Use the background menu to choose another 
 
 This theme supplies colors, a blue bar, and the standard Yaru-blue icon selection. Omarchy generates application configurations from its templates.
 
+## Terminal contrast
+
+After a dark-to-light theme change, some terminal applications retain their previous colors.
+Omarchy already refreshes supported applications when any theme changes, but some applications still need a restart.
+If text becomes pale or input panels remain dark, restart the affected application in a new terminal window.
+
+For Codex, use `codex resume` in the new terminal to reopen the conversation.
+For OpenCode, select `system` with `/theme`; use `omarchy restart opencode` to request a configuration reload without terminating the process.
+This theme does not force application restarts.
+
+The Foot template supplied with Omarchy 4.0.4 places every palette in `[colors-dark]`.
+Foot therefore reports dark mode even when Luna XP displays a light background.
+The override below corrects that report. It does not refresh colors that an application retains internally.
+
+The override in `templates/foot.ini.tpl` sets Foot's initial mode and palette section from the theme's `mode` value.
+It requires Foot 1.28 or newer and applies to all Omarchy themes.
+If a custom Foot template already exists, back it up before you replace it.
+From this repository, run:
+
+```sh
+mkdir -p ~/.config/omarchy/themed
+cp templates/foot.ini.tpl ~/.config/omarchy/themed/foot.ini.tpl
+omarchy theme set luna-xp
+```
+
+Open a new Foot window after you apply the override. Existing Foot windows do not reload this configuration.
+
 ## Wallpaper selector
 
 Open the wallpaper selector with `omarchy theme bg-switcher`.
