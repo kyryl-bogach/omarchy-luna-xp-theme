@@ -64,6 +64,6 @@ Credits describe reported authorship. They do not establish current ownership or
 
 ## Processing
 
-The script verifies source SHA-256 checksums before export. It converts embedded color profiles to sRGB, crops to the target ratio, and exports WebP.
+Each export comes from a source file with the SHA-256 checksum in `wallpapers.json`. The process converts embedded color profiles to sRGB, crops to the target ratio, and exports WebP.
 
 Home already contains community upscale changes. The other exports add no generated scenery.

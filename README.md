@@ -79,28 +79,8 @@ The exports use an sRGB conversion and a centered crop. Portrait displays and wi
 
 See [SOURCES.md](SOURCES.md) for download links, credits, and asset rights. Source checksums are in [wallpapers.json](wallpapers.json).
 
-## Rebuild
-
-Requires Python 3.11+, ImageMagick, and an sRGB ICC profile. The default profile comes from Ghostscript on Arch Linux.
-
-```sh
-python scripts/build-wallpapers.py --download
-python scripts/validate.py
-```
-
-Source files stay in the ignored `.masters/` directory. The validator requires an installed Omarchy tree.
-
-For other display ratios, export from the source files to avoid a second crop:
-
-```sh
-python scripts/build-wallpapers.py --download --aspect 16:10
-python scripts/build-wallpapers.py --download --aspect 21:9
-```
-
-These exports go into `.exports/`. Copy the desired files into your Omarchy background directory.
-
 ## License
 
-The MIT license covers original theme configurations, scripts, and documentation. It excludes wallpaper photographs and their depictions in screenshots.
+The MIT license covers original theme configurations and documentation. It excludes wallpaper photographs and their depictions in screenshots.
 
 The photographs remain third-party works. The source archives do not establish a redistribution license. This project has no Microsoft affiliation.
